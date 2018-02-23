@@ -169,6 +169,7 @@ class Audit {
       description: auditDescription,
       helpText: audit.meta.helpText,
       details: result.details,
+      summary: result.summary,
     };
   }
 }
