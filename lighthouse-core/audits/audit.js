@@ -112,8 +112,8 @@ class Audit {
    * @return {!DetailsRenderer.DetailsJSON}
    */
   static makeTableDetails(headings, results) {
+    // todo: empty the headings obj if results.length === 0
     return {
-      // hack to rename key => itemKey
       headings: headings,
       items: results,
     };
